@@ -307,7 +307,6 @@ section{
 }
 
 .input-box input,
-.input-box input,
 .input-box textarea {
     border-radius: 3rem;
     border: 2px solid black;
@@ -903,6 +902,7 @@ footer ul li a{
     }
 
 }
+
 
 
 
