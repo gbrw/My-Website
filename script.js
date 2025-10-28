@@ -14,4 +14,20 @@ function downloadCV() {
     link.href = 'Ghaith_Alrawi_CV.pdf';
     link.download = 'Ghaith Alrawi CV.pdf';
     link.click();
+
 }
+
+document.getElementById("submit-btn").addEventListener("click", function(){
+    const name = document.getElementById("name-input").value.trim();
+    const message = document.getElementById("message-input").value.trim();
+
+    if(name === "" || message === ""){
+        alert("Please fill both your name and message!");
+        return;
+    }
+
+    const subject = `Message from ${name}`;
+    const body = encodeURIComponent(message);
+
+    window.location.href = `mailto:gaithalrawi99@gmail.com?subject=${subject}&body=${body}`;
+});
