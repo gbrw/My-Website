@@ -327,7 +327,6 @@ section{
     outline: none;
     resize: none;
     box-sizing: border-box;
-    overflow: auto;
 }
 
 .info-box input::placeholder{
@@ -909,6 +908,7 @@ footer ul li a{
     }
 
 }
+
 
 
 
