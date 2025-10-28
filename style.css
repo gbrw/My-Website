@@ -383,6 +383,12 @@ footer ul li a{
     }
 }
 
+@media (min-width: 1200px){
+    .about img, .experince img, .project-card img {
+        max-width: 400px;
+    }
+}
+
 @media (max-width:768px){
     header{
         gap: 1rem;
@@ -886,3 +892,4 @@ footer ul li a{
     }
 
 }
+
