@@ -306,7 +306,7 @@ section{
     margin-top: 5rem;
 }
 
-.input-box input .input-box textarea{
+.input-box input{
     border-radius: 3rem;
     border: 2px solid black;
     padding: 2rem 8rem;
@@ -316,8 +316,16 @@ section{
 }
 
 .input-box textarea{
-    height: 150px; 
-    resize: none;
+    width: 100%;
+    padding: 2rem 8rem;      
+    border-radius: 3rem;     
+    border: 2px solid black;  
+    font-size: 3rem;           
+    color: black;              
+    background-color: white;    
+    resize: none;              
+    outline: none;             
+}
 
 .info-box input::placeholder{
     font-size: 3rem;
@@ -898,5 +906,6 @@ footer ul li a{
     }
 
 }
+
 
 
