@@ -316,8 +316,8 @@ section{
 }
 
 .input-box textarea{
-    height: 150px
-    resize: none;                    
+    box-sizing: border-box;
+    height: 150px                   
 }
 
 .info-box input::placeholder{
@@ -899,6 +899,7 @@ footer ul li a{
     }
 
 }
+
 
 
 
