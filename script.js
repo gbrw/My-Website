@@ -2,10 +2,7 @@ const menuIcon = document.querySelector('#menu-icons');
 const navLinks = document.querySelector('.nav-links');
 
 menuIcon.onclick = () => {
-    navLinks.classList.toggle('active');
-}
-menuIcon.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+navLinks.classList.toggle('active');
   menuIcon.classList.toggle('fa-bars');
   menuIcon.classList.toggle('fa-xmark');
 });
@@ -36,6 +33,7 @@ document.getElementById("submit-btn").addEventListener("click", function(){
 
     window.location.href = `mailto:gaithalrawi99@gmail.com?subject=${subject}&body=${body}`;
 });
+
 
 
 
