@@ -5,13 +5,7 @@ menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
 }
 
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        document.querySelector('.nav-links').classList.remove('active');
-    });
-});
-
-function visitGithub() {
+ function visitGithub() {
     window.open("https://github.com/gbrw", "_blank");
 }
 
@@ -20,6 +14,7 @@ function downloadCV() {
     link.href = 'Ghaith_Alrawi_CV.pdf';
     link.download = 'Ghaith Alrawi CV.pdf';
     link.click();
+
 }
 
 document.getElementById("submit-btn").addEventListener("click", function(){
