@@ -4,9 +4,9 @@ const navLinks = document.querySelector('.nav-links');
 menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
 }
-document.addEventListener('DOMContentLoaded', () => {
-  document.addEventListener('click', (e) => {
-    if (e.target.closest('.nav-links a')) {
+window.addEventListener('load', function () {
+  document.body.addEventListener('click', function (e) {
+    if (e.target.matches('.nav-links a, .nav-links a *')) {
       document.querySelector('.nav-links')?.classList.remove('active');
     }
   });
@@ -38,6 +38,7 @@ document.getElementById("submit-btn").addEventListener("click", function(){
 
     window.location.href = `mailto:gaithalrawi99@gmail.com?subject=${subject}&body=${body}`;
 });
+
 
 
 
