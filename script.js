@@ -3,8 +3,6 @@ const navLinks = document.querySelector('.nav-links');
 
 menuIcon.onclick = () => {
 navLinks.classList.toggle('active');
-  menuIcon.classList.toggle('fa-bars');
-  menuIcon.classList.toggle('fa-xmark');
 });
 
  function visitGithub() {
@@ -33,6 +31,7 @@ document.getElementById("submit-btn").addEventListener("click", function(){
 
     window.location.href = `mailto:gaithalrawi99@gmail.com?subject=${subject}&body=${body}`;
 });
+
 
 
 
