@@ -810,7 +810,7 @@ footer ul li a{
         flex-direction: column;
     }
     .input-box input{
-        padding: 2rem 5rem;
+        padding: 2rem 2rem;
         font-size: 2.5rem;
     }
     .input input::placeholder{
@@ -904,4 +904,5 @@ footer ul li a{
     }
 
 }
+
 
