@@ -892,7 +892,7 @@ footer ul li a{
         width: 80vw;
     }
     .input-box input{
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 1rem;
         width: 80%;
         font-size: 1.5rem;
     }
@@ -904,6 +904,7 @@ footer ul li a{
     }
 
 }
+
 
 
 
