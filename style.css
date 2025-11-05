@@ -488,10 +488,6 @@ footer ul li a{
         gap: 1rem;
     }
 }
-.nav-links{
-    display: flex;
-    gap: 2rem;
-}
 li a{
     position: relative;
     color: white;
@@ -909,6 +905,7 @@ footer ul li a{
     }
 
 }
+
 
 
 
