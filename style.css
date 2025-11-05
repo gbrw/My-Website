@@ -751,7 +751,6 @@ section{
 .input-box input{
     border-radius: 3rem;
     border: 2px solid black;
-    padding: 2rem 2rem;
     font-size: 3rem;
 }
 
@@ -905,3 +904,4 @@ footer ul li a{
     }
 
 }
+
