@@ -4,10 +4,10 @@ const navLinks = document.querySelector('.nav-links');
 menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
 }
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        document.querySelector('.nav-links').classList.remove('active');
-    });
+document.addEventListener('click', (e) => {
+  if (e.target.closest('.nav-links a')) {
+    document.querySelector('.nav-links')?.classList.remove('active');
+  }
 });
 
  function visitGithub() {
@@ -36,4 +36,5 @@ document.getElementById("submit-btn").addEventListener("click", function(){
 
     window.location.href = `mailto:gaithalrawi99@gmail.com?subject=${subject}&body=${body}`;
 });
+
 
